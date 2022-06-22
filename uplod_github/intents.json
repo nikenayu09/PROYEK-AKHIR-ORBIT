@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi","Hey","Hai","Hello","Hallo",
+        "Assalamualaikum"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Terimakasih sudah berkunjung",
+        "Hi , apa yang bisa saya bantu?",
+        "Hi, kamu butuh apa?"
+      ]
+    },
+    {
+      "tag": "kirim",
+      "patterns": ["jam berapa dikirimnya ?"],
+      "responses": [
+        "Barang yang dicheckout sebelum jam 18.00 akan dikirim pada hari itu juga, sedangkan yang lebih dari jam tersebut akan dikirim besok"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye"],
+      "responses": [
+        "Jangan lupa berbelanja ditoko kami lagi ya kak :), Have a nice day"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih"],
+      "responses": ["Terima kasih kembali, ada yang bisa saya bantu lagi ?"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Barang apa saja yang dijual?"
+      ],
+      "responses": [
+        "Kami menjual berbagai macam skincare"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Pembayaran via apa ya ?","Bayarnya pake apa ya ?"
+      ],
+      "responses": [
+        "Untuk saat ini pembayaran baru bisa menggunakan direct bank, untuk kedepannya akan kami tambahkan pembayaran via e-wallet"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Pengirimannya berapa lama ya?","Berapa lama barangnya tiba?","Kapan barangnya tiba?"
+      ],
+      "responses": [
+        "Lama sebentarnya barang tiba sesuai jarak dari toko kami ke alamat pembeli, untuk pulau jawa biasanya 3-5 hari dan untuk diluar jawab biasanya 5-7 hari"
+      ]
+    },
+    {
+      "tag": "Jam",
+      "patterns": [
+        "Jam berapa toko buka ?","Jam berapa toko tutup ?"
+      ],
+      "responses": [
+        "Toko kami beroperasi dari jam 9 pagi hingga jam 8 malam kak"
+      ]
+    },
+    {
+      "tag": "Asli",
+      "patterns": [
+        "Apakah barang ini asli atau kw ?"
+      ],
+      "responses": [
+        "Barang yang kami jual 100% barang asli ya kak"
+      ]
+    },
+    {
+      "tag": "Ready",
+      "patterns": [
+        "Apakah barang ini ready ?","Apakah barang ini tersedia ?"
+      ],
+      "responses": [
+        "Apabila barang tersebut masih ada di etalase toko, berarti barang tersebut masih ready ya kak"
+      ]
+    },
+    {
+      "tag": "Garansi",
+      "patterns": [
+        "Garansinya berapa lama ?","Apakah barang yang dijual bergaransi ?"
+      ],
+      "responses": [
+        "Barang yang kami jual bergaransi, dan garansinya tergantung dari produknya ya kak"
+      ]
+    },
+    {
+      "tag": "cacat",
+      "patterns": [
+        "Bagaimana apabila barang cacat ?","Bagaimana apabila barangnya tidak sesuai ?"
+      ],
+      "responses": [
+        "Apabila barang tidak sesuai atau cacat, bisa di kembalikan dengan cacatan mempunyai bukti video unboxing"
+      ]
+    }
+  ]
+}
